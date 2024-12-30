@@ -19,11 +19,11 @@ let package = Package(
             // Targets can depend on other targets in this package and products from dependencies.
             .binaryTarget(
                 name: "CashEmitter",
-                path: "./Sources/CashEmitter/App.xcframework"
+                path: "./Sources/Debug/App.xcframework"
             ),
             .binaryTarget(
                 name: "Flutter",
-                path: "./Sources/CashEmitter/Flutter.xcframework"
+                path: "./Sources/Debug/Flutter.xcframework"
             ),
         ]
 )
